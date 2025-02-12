@@ -1,0 +1,20 @@
+#creating virtual terminal
+screen -S <screen_name>
+eg: screen -S train
+
+#list screen
+screen -ls
+
+#detach terminal (passive running in server)
+ctrl + (a --> d)
+
+#resume the detached screen
+screen -r <screen_name>
+screen -r train
+
+"don't forget to kill the terminal once task in virtual terminal is completed"
+#kill screen(terminate virtual terminal)
+ctrl + (a --> k)
+
+# Keyboard interrupt
+Ctrl + C

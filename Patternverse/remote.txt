@@ -1,0 +1,9 @@
+ssh rmuproject@103.224.106.151
+Nepal@123
+
+#download command
+scp -r <user_id>:<source path in server> <destination in local device>
+Example: scp -r /Users/kamleshranabhat/Desktop/machine-learning-set/900x1200_4954 rmuproject@103.224.106.151:/home/rmuproject/rmuproject/data
+
+#upload command
+scp -r <data path in local device> <user_id>:<destination path in server>

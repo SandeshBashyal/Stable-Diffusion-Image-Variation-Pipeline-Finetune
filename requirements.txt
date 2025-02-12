@@ -1,0 +1,17 @@
+numpy
+matplotlib
+seaborn
+torch
+tqdm
+nvitop
+torchvision
+pillow
+diffusers
+transformers 
+accelerate 
+scipy 
+safetensors
+bitsandbytes
+# lpips
+scikit-image
+imagehash
